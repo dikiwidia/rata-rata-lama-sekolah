@@ -47,6 +47,13 @@ $ git clone https://github.com/bantenprov/rata-rata-lama-sekolah.git
 
 ```
 
+#### Untuk publish component vue :
+
+```bash
+$ php artisan vendor:publish --tag=rr-lama-sekolah-assets
+$ php artisan vendor:publish --tag=rr-lama-sekolah-public
+```
+
 #### Tambahkan route di dalam route : `resources/assets/js/routes.js` :
 
 ```javascript
@@ -166,9 +173,4 @@ import RRLamaSekolahPie03 from './components/views/bantenprov/rr-lama-sekolah/RR
 Vue.component('rr-lama-sekolah-pie-03', RRLamaSekolahPie03);
 ```
 
-#### Untuk publish component vue :
 
-```bash
-$ php artisan vendor:publish --tag=rr-lama-sekolah-assets
-$ php artisan vendor:publish --tag=rr-lama-sekolah-public
-```
