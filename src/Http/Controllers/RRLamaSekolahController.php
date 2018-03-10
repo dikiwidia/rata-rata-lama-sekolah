@@ -5,7 +5,7 @@ namespace Bantenprov\RRLamaSekolah\Http\Controllers;
 /* Require */
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Bantenprov\BudgetAbsorption\Facades\RRLamaSekolahFacade;
+use Bantenprov\RRLamaSekolah\Facades\RRLamaSekolahFacade;
 
 /* Models */
 use Bantenprov\RRLamaSekolah\Models\Bantenprov\RRLamaSekolah\RRLamaSekolah;
